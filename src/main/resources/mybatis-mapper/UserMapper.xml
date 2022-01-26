@@ -4,6 +4,6 @@
 <mapper namespace="com.ksh.awsspringboot.mapper.UserMapper">
     <select id="getUser" parameterType="int" resultType="User">
         select a.* from USER a
-        where a.id = #{num}
+        where a.id = #{id}
     </select>
 </mapper>
