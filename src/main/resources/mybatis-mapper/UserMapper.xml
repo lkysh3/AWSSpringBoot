@@ -3,7 +3,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ksh.awsspringboot.mapper.UserMapper">
     <select id="getUser" parameterType="int" resultType="User">
-        select a.* from User a
+        select a.* from USER a
         where a.id = #{num}
     </select>
 </mapper>
